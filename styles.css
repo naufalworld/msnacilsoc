@@ -1,3 +1,23 @@
+@media (max-width: 600px) {
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* horizontal center */
+    justify-content: center; /* vertical center jika ingin */
+    text-align: center;
+  }
+  .title {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .main-title,
+  .subtitle {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
 .gallery-item.landscape img {
     aspect-ratio: 16/9;
     object-fit: cover;
@@ -3852,4 +3872,23 @@ td {
 
 tr.preview td {
     padding: 8px;
+}
+@media (max-width: 600px) {
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .title {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .main-title,
+  .subtitle {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
 }
